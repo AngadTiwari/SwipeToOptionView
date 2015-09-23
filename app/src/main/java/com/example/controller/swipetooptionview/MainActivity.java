@@ -70,10 +70,6 @@ public class MainActivity extends Activity {
             listViewAdapterHolder.textViewFront=(TextView)convertView.findViewById(R.id.front);
             listViewAdapterHolder.textViewBack=(TextView)convertView.findViewById(R.id.back);
 
-            /*listViewAdapterHolder.frame.removeAllViews();
-            listViewAdapterHolder.frame.addView(listViewAdapterHolder.textViewBack);
-            listViewAdapterHolder.frame.addView(listViewAdapterHolder.textViewFront);*/
-
             listViewAdapterHolder.textViewFront.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {

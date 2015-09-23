@@ -6,15 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:id="@+id/front"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_gravity="center_vertical"
-        android:gravity="center_vertical"
-        android:textColor="@android:color/white"
-        android:text="ListView Row Data Front"
-        android:background="@android:color/holo_red_light"/>
-    <TextView
         android:id="@+id/back"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -23,4 +14,13 @@
         android:text="ListView Row Data Back"
         android:textColor="@android:color/white"
         android:background="@android:color/holo_blue_light"/>
+    <TextView
+        android:id="@+id/front"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:text="ListView Row Data Front"
+        android:background="@android:color/holo_red_light"/>
 </FrameLayout>
